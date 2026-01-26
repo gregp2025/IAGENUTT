@@ -38,6 +38,8 @@ IAGENUTT est une application Python qui transforme un texte en épisode de podca
 - **Backend** : Python
 
 ---
+##  Prérequis pour le projet 
+
 
 ## 📁 Structure du projet
 

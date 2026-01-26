@@ -6,12 +6,11 @@ windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" pui
 
 test
 podcast-generator-ia/
-│
-├── app.py              # Interface Gradio (UI)
-├── llm.py              # Gestion du LLM (Mistral/Llama)
-├── tts.py              # Synthèse vocale (Coqui/Bark)
-├── audio_utils.py      # Fusion / traitement audio
-├── config.py           # Config (modèles, chemins…)
-├── requirements.txt    # Dépendances
-├── README.md           # Description du projet
+ app.py              # Interface Gradio (UI)
+ llm.py              # Gestion du LLM (Mistral/Llama)
+ tts.py              # Synthèse vocale (Coqui/Bark)
+audio_utils.py      # Fusion / traitement audio
+ config.py           # Config (modèles, chemins…)
+requirements.txt    # Dépendances
+README.md           # Description du projet
 

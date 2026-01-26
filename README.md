@@ -45,9 +45,9 @@ IAGENUTT est une application Python qui transforme un texte en épisode de podca
 
 
 
--podcast-generator-ia/
- -app.py              # Interface Gradio (UI)
- -llm.py              # Gestion du LLM (Mistral/Llama)
+- podcast-generator-ia/
+ - app.py              # Interface Gradio (UI)
+ - llm.py              # Gestion du LLM (Mistral/Llama)
  -tts.py              # Synthèse vocale (Coqui/Bark)
 -audio_utils.py      # Fusion / traitement audio
  -config.py           # Config (modèles, chemins…)

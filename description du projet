@@ -1,4 +1,5 @@
-test
+description du projet
+  
 podcast-generator-ia/
 │
 ├── app.py              # Interface Gradio (UI)

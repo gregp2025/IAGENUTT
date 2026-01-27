@@ -3,7 +3,7 @@
 
 
 
-IAGENUTT est une application Python qui transforme un texte en épisode de podcast audio avec un animateur et un invité en utilisant un LLM  pour la génération du texte du podcast et un TTS ( text to speach ) pour 
+IAGENUTT est une application Python qui transforme un texte en épisode de podcast audio avec un animateur et un invité en utilisant un LLM  pour la génération du texte du podcast et un TTS ( text to speach ) pour l'audio . 
 
 ---
 

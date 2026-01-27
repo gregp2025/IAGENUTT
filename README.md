@@ -1,10 +1,5 @@
-# IAGENUTT
-FFmpeg and ollama must be installed and available in PATH
-pour cela installer FFmpeg sur https://www.gyan.dev/ffmpeg/builds/
-Puis il doit etre configuré en temps que chemin : 
-windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" puis "path" puis "nouvelle" rajouter le  dossier "bin" de ffmpeg 
 
-# 🎙️ IAGENUTT — Générateur de Podcast IA (Texte → Voix)
+# IAGENUTT — Générateur de Podcast IA (Texte → Voix)
 
 IAGENUTT est une application Python qui transforme un texte en épisode de podcast audio réaliste avec plusieurs voix, en utilisant un LLM et une synthèse vocale automatique.
 
@@ -43,11 +38,6 @@ IAGENUTT est une application Python qui transforme un texte en épisode de podca
 - intallation de ffmeg sur https://www.gyan.dev/ffmpeg/builds/ Puis il doit etre configuré en temps que chemin : 
 windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" puis "path" puis "nouvelle" rajouter le chemin du  dossier "bin" de ffmpeg 
 ## 📁 Structure du projet
-
-
-
-
-
 - podcast-generator-ia/
  - app.py              # Interface Gradio (UI)
  - llm.py              # Gestion du LLM (Mistral/Llama)

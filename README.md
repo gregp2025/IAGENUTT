@@ -24,11 +24,8 @@ IAGENUTT est une application Python qui transforme un texte en épisode de podca
 - Export en MP3
 - Interface web avec Gradio
 
----
-
-
 ## Installer et exécuter le projet en local
----
+
 ###  Prérequis pour le projet 
 - Installation de ollama (https://ollama.com/download) puis installation de mistral
 - intallation de ffmeg sur https://www.gyan.dev/ffmpeg/builds/ Puis il doit etre configuré en temps que chemin : 

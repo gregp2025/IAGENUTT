@@ -27,7 +27,7 @@ IAGENUTT est une application Python qui transforme un texte en épisode de podca
 ---
 
 
-## installer et exécuter le projet en local
+## Installer et exécuter le projet en local
 ---
 ###  Prérequis pour le projet 
 - Installation de ollama (https://ollama.com/download) puis installation de mistral
@@ -42,7 +42,7 @@ windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" pui
  - config.py           # Config (modèles, chemins…)
 - requirements.txt    # Dépendances
 - README.md           # Description du projet
-## exécution du projet 
+## Exécution du projet 
 -  Utiliser l'invite de commande
 -  Aller dans le dossier du projet puis faire -python app.py 
  ## Les choix techniques et les éventuelles limitations
@@ -53,7 +53,7 @@ windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" pui
 - **Audio** : FFmpeg + Pydub
 - **UI** : Gradio
 - **Backend** : Python
-### les limitations : 
+### Les limitations : 
 - Il n'y a que 7 langages qui sont supportés par le TTS
 - Il n'y a qu'une seul voix   
 

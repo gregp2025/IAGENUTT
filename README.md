@@ -40,10 +40,14 @@ windows+R  puis remplir avec "sysdm.cpl" choisir "variables d'environnement" pui
  - config.py           # Config (modèles, chemins…)
 - requirements.txt    # Dépendances
 - README.md           # Description du projet
-### Exécution du projet 
+### Exécution du projet
+-  Lancer ollama 
 -  Utiliser l'invite de commande
 -  Aller dans le dossier du projet puis faire -python app.py
-
+-  cliquer sur l'url dans la commande (  http://127.0.0.1:7860)
+-  Choisir la langue dans l'interface gradio ainsi que remplir le sujet du podcast
+-  cliquer sur "générer podcast"
+-  appuyer sur "▶️" pour écouter le podcast  
   ---
  ## Les choix techniques et les éventuelles limitations
 ###  Technologies utilisées

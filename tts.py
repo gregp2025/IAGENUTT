@@ -11,7 +11,7 @@ def text_to_audio(text: str, output_file: str, lang_code):
     tts = gTTS(text=text, lang=lang_code)
     tts.save(mp3_temp)
 
-    # convertir mp3 → wav pour compatibilité
+    # convertion  mp3 en wav pour compatibilité
     from pydub import AudioSegment
     audio = AudioSegment.from_mp3(mp3_temp)
     audio.export(output_file, format="wav")

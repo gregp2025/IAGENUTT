@@ -30,7 +30,7 @@ Host: ...
 Guest: ...
 """
 
-    # 🔹 Debug : afficher le prompt
+    # Debug : afficher le prompt
     print("Prompt envoyé au LLM:", prompt)
 
     try:
@@ -45,7 +45,7 @@ Guest: ...
         )
 
         data = response.json()
-        # 🔹 Debug : afficher la réponse brute
+        # Debug : afficher la réponse brute
         print("Réponse brute:", data)
 
         if "response" not in data or not data["response"]:
@@ -66,4 +66,5 @@ Guest: ...
     except Exception as e:
         print("❌ Erreur LLM:", e)
         return None
+
 

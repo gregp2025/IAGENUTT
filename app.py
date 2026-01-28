@@ -6,7 +6,7 @@ import os
 import uuid
 
 
-# 👇 ICI
+# variable langue
 LANGUAGES = {
     "Français": "fr",
     "English": "en",
